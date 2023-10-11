@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO LIST</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1>Inserisci un nuovo task</h1>
-    <input type="text" name="newDo" id="newDo">
-    <button class="addtToList">Aggiungi</button>
-    <script src="./todo_list.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TO DO LIST</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <h1>Inserisci un nuovo task alla To do List</h1>
+        <input type="text" name="newDo" id="newDo" placeholder="aggiungi task">
+        <button class="addtToList">Aggiungi</button>
+
+        <div class="todo_list">
+            <div class="list"></div>
+        </div>
+
+        <script src="./todo_list.js"></script>
+    </body>
 </html>

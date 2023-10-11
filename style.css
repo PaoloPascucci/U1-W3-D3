@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+.addtToList,
+input {
+  padding: 0.5rem;
+  font-size: 20px;
+}
+.addtToList {
+  border: 2px solid black;
+
+  font-weight: bold;
+  background-color: rgb(191, 125, 4);
+}
+
+.newTask {
+    display: inline-block;
+    background-color: lightcyan;
+    padding: 5px 20px;
+    width: 100px;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+.todo_list {
+  margin-top: 20px;
+}
+
+.done,
+.delete {
+  border: none;
+  padding: 5px;
+  display: inline-block;
+  margin: auto;
+}
+.done {
+  border-radius: 50%;
+  background: white;
+  color: lime;
+}
+
+.delete {
+  border-radius: 50%;
+  background: white;
+  color: red;
+  float: right; 
+}
+.task {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .taskDone {
+    text-decoration: line-through;
+  }
+  
